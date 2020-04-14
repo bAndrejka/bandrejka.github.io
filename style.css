@@ -1,0 +1,203 @@
+body {
+  padding-top: 1px;
+}
+
+.menu {
+  position: fixed;
+  background: white;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top: 0;
+  padding-top: 12px;
+  padding-bottom: 0px;
+}
+
+.topping {
+  width: 800px;
+  background: #000000;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+a:hover {
+  font-size: 120%;
+  color: red;
+  cursor: url("http://icons.iconarchive.com/icons/sensibleworld/starwars/48/Lightsaber-Red-icon.png"),
+    pointer;
+}
+
+.elso {
+  padding-left: 90px;
+}
+
+.utolso {
+  margin-right: 90px;
+}
+
+.header {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  margin-top: 75px;
+}
+
+img {
+  max-width: 40%;
+  max-height: 40%;
+  opacity: 0.7;
+}
+
+.text {
+  font-family: "Abril Fatface", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  font-size: 200%;
+  color: #222222;
+  line-height: 60px;
+}
+
+h4 {
+  margin-left: -250px;
+  margin-bottom: -50px;
+}
+
+h1 {
+  margin-left: -250px;
+}
+
+.content1 {
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: -90px;
+  line-height: 25px;
+}
+
+.content {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+p,
+li,
+h2,
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222222;
+  list-style-type: square;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.partition {
+  display: flex;
+  width: 800px;
+  margin: auto;
+}
+
+.quote {
+  /*  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  background: #222222;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  width: 2130px;
+  height: 280px;
+}
+
+.quote2 {
+  background: #222222;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  max-width: 650px;
+  max-height: 330px;
+}
+
+.quote3 {
+  background: #222222;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  max-width: 600px;
+  max-height: 450px;
+}
+
+#quote-sign {
+  transform: rotate(-180deg);
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#qt {
+  text-align: left;
+  margin-top: -190px;
+  padding: 50px;
+  padding-left: 300px;
+  font-size: 42px;
+}
+
+.light {
+  font-size: 15px;
+}
+
+.sub {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+}
+
+hr {
+  border-top: 4px solid black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#foot {
+  opacity: 0.25;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  margin-top: -50px;
+  margin-bottom: -30px;
+  -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+  -moz-animation: glow 0.5s ease-in-out infinite alternate;
+  animation: glow 0.5s ease-in-out infinite alternate;
+}
+
+#foot:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.foot-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
