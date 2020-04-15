@@ -1,0 +1,22 @@
+div {
+    max-width: 200px;
+    border: 1.5px solid black;
+    border-top: none;
+    padding: 15px;
+}
+
+#first {
+    border-top: none;
+}
+
+#last {
+    border-bottom: none;
+}
+
+div:hover {
+    background: orangered;
+    cursor: pointer;
+    opacity: 0.75;
+    color: white;
+    font-weight: bold;
+}
